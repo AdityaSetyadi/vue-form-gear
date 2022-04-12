@@ -1,0 +1,52 @@
+{
+    "description":"sample template",
+    "dataKey":"sample_tpl1",
+    "version":"0.0.1",
+    "testFunctions":[
+        {
+            "dataKey":"hobbies",
+            "componentValidation":["hobbies"],
+            "validations": [
+                {
+                    "test":"getValue('hobbies').length == 0",
+                    "message":"Please choose at least one hobby",
+                    "type":1
+                }
+            ]
+        },
+        {
+            "dataKey":"address",
+            "componentValidation":["address"],
+            "validations": [
+                {
+                    "test":"console.log(getValue('address'));getValue('address').length < 5",
+                    "message":"Minimum characters allowed is 5",
+                    "type":2
+                }
+            ]
+        },
+        {
+            "dataKey":"frec_coffee",
+            "componentValidation":["frec_coffee@$ROW$"],
+            "validations": [
+                {
+                    "test":"Number(getValue('frec_coffee@$ROW$')) < 1",
+                    "message":"Frecuency of drinking coffee can not be blank",
+                    "type":2
+                }
+            ]
+        },
+        {
+            "dataKey":"social_media",
+            "componentValidation":["social_media@$ROW$"],
+            "validations": [
+                {
+                    "test":"Number(getValue('social_media@$ROW$')) < 1",
+                    "message":"Number of social media should not be blank",
+                    "type":1
+                }
+            ]
+        }
+    ]
+ }
+  
