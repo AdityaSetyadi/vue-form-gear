@@ -30,7 +30,7 @@
             "componentValidation":["frec_coffee@$ROW$"],
             "validations": [
                 {
-                    "test":"Number(getValue('frec_coffee@$ROW$')) < 1",
+                    "test":"getValue('frec_coffee') == ''",
                     "message":"Frecuency of drinking coffee can not be blank",
                     "type":2
                 }
@@ -41,9 +41,9 @@
             "componentValidation":["social_media@$ROW$"],
             "validations": [
                 {
-                    "test":"Number(getValue('social_media@$ROW$')) < 1",
-                    "message":"Number of social media should not be blank",
-                    "type":1
+                    "test":"getValue('social_media') == ''",
+                    "message":"social media can not be blank",
+                    "type":2
                 }
             ]
         }

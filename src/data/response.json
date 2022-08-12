@@ -1,155 +1,445 @@
 {
-   "description":"sample template",
-   "dataKey":"sample_tpl1",
-   "answers":[
-      {
-         "dataKey":"agree",
-         "answer":true
-      },
-      {
-         "dataKey":"nm_lengkap",
-         "answer":"Agung"
-      },
-      {
-         "dataKey":"alamat",
-         "answer":"Jalan Otista"
-      },
-      {
-         "dataKey":"penggunaan_lahan",
-         "answer":[
-            {
-               "label": "lastId#1",
-               "value": "0"
-            },
-            {
-               "label": "Sawah",
-               "value": "1"
-            },
-            {
-               "label": "Padang Rumput Permanen",
-               "value": "4"
-            }
-         ]
-      },
-      {
-         "dataKey":"provinsi",
-         "answer":[
-            {
-               "label": "[12] SUMATERA UTARA",
-               "value": "12"
-            }
-         ]
-      },
-      {
-         "dataKey":"luas_lahan#1",
-         "answer":"1"
-      },
-      {
-         "dataKey":"luas_rumah#1",
-         "answer":"20"
-      },
-      {
-         "dataKey":"l2_r402#1",
-         "answer":[
-            {
-               "label": "lastId#1",
-               "value": "0"
-            },
-            {
-               "label": "Padi Ladang",
-               "value": "2"
-            }
-         ]
-      },
-      {
-         "dataKey":"luas_lahan#4",
-         "answer":"40"
-      },
-      {
-         "dataKey":"luas_rumah#4",
-         "answer":"50"
-      },
-      {
-         "dataKey":"l2_r402#4",
-         "answer":[
-            {
-               "label": "lastId#1",
-               "value": "0"
-            },
-            {
-               "label": "Padi Sawah",
-               "value": "1"
-            }
-         ]
-      },
-      {
-         "dataKey":"pekerjaan",
-         "answer":"PNS"
-      },
-      {
-         "dataKey":"npwp",
-         "answer":"803424327665321"
-      },
-      {
-         "dataKey":"hp",
-         "answer":"82361105896"
-      },
-      {
-         "dataKey":"anggota",
-         "answer": [{
-            "value" : "3",
-            "label" : "Clementine Bauch"
-         }]
-      },
-      {
-         "dataKey" : "todos",
-         "answer" : [{
-            "value" : "41",
-            "label" : "aliquid amet impedit consequatur aspernatur placeat eaque fugiat suscipit"
-         }]
-      },
-      {
-         "dataKey":"jenis_kelamin",
-         "answer":[
-            {
-               "value" : "P",
-               "label" : "Perempuan"
-            }
-         ]
-      },
-      {
-         "dataKey":"penghasilan",
-         "answer":"10000000.555"
-      },
-      {
-         "dataKey":"num_rows",
-         "answer":"1"
-      },
-      {
-         "dataKey":"jenis_peliharaan#2",
-         "answer":"anjing"
-      },
-      {
-         "dataKey":"jumlah_peliharaan#3",
-         "answer":"1"
-      },
-      {
-         "dataKey":"genre_musik",
-         "answer":[
-            {
-               "label": "lastId#0",
-               "value": "0"
-            },
-            {
-               "label": "Pop",
-               "value": "1"
-            },
-            {
-               "label": "Jazz",
-               "value": "2"
-            }
-         ]
-      }
-   ]
+    "description": "sample template",
+    "dataKey": "sample_tpl1",
+    "answers": [
+        {
+            "dataKey": "age_confirmation",
+            "answer": true
+        },
+        {
+            "dataKey": "agreement",
+            "answer": true
+        },
+        {
+            "dataKey": "signa",
+            "answer": [
+                {
+                    "value": true,
+                    "type": "image/png",
+                    "signature": [
+                        {
+                            "dotSize": 0,
+                            "minWidth": 0.5,
+                            "maxWidth": 2.5,
+                            "penColor": "black",
+                            "points": [
+                                {
+                                    "time": 1657951541137,
+                                    "x": 115.5999755859375,
+                                    "y": 89,
+                                    "pressure": 0.5
+                                },
+                                {
+                                    "time": 1657951541213,
+                                    "x": 121.199951171875,
+                                    "y": 87.4000244140625,
+                                    "pressure": 0.5
+                                },
+                                {
+                                    "time": 1657951541230,
+                                    "x": 126.79998779296875,
+                                    "y": 85.79998779296875,
+                                    "pressure": 0.5
+                                },
+                                {
+                                    "time": 1657951541247,
+                                    "x": 144.39996337890625,
+                                    "y": 78.60003662109375,
+                                    "pressure": 0.5
+                                },
+                                {
+                                    "time": 1657951541264,
+                                    "x": 154.79998779296875,
+                                    "y": 73,
+                                    "pressure": 0.5
+                                },
+                                {
+                                    "time": 1657951541281,
+                                    "x": 199.5999755859375,
+                                    "y": 45,
+                                    "pressure": 0.5
+                                },
+                                {
+                                    "time": 1657951541298,
+                                    "x": 207.5999755859375,
+                                    "y": 37.800018310546875,
+                                    "pressure": 0.5
+                                },
+                                {
+                                    "time": 1657951541315,
+                                    "x": 220.39996337890625,
+                                    "y": 25.800018310546875,
+                                    "pressure": 0.5
+                                },
+                                {
+                                    "time": 1657951541331,
+                                    "x": 228.39996337890625,
+                                    "y": 17,
+                                    "pressure": 0.5
+                                },
+                                {
+                                    "time": 1657951541348,
+                                    "x": 232.39996337890625,
+                                    "y": 13,
+                                    "pressure": 0.5
+                                },
+                                {
+                                    "time": 1657951541448,
+                                    "x": 231.5999755859375,
+                                    "y": 20.20001220703125,
+                                    "pressure": 0.5
+                                },
+                                {
+                                    "time": 1657951541465,
+                                    "x": 231.5999755859375,
+                                    "y": 28.20001220703125,
+                                    "pressure": 0.5
+                                },
+                                {
+                                    "time": 1657951541481,
+                                    "x": 232.39996337890625,
+                                    "y": 37,
+                                    "pressure": 0.5
+                                },
+                                {
+                                    "time": 1657951541497,
+                                    "x": 233.199951171875,
+                                    "y": 45.800018310546875,
+                                    "pressure": 0.5
+                                },
+                                {
+                                    "time": 1657951541531,
+                                    "x": 232.39996337890625,
+                                    "y": 54.600067138671875,
+                                    "pressure": 0.5
+                                },
+                                {
+                                    "time": 1657951541548,
+                                    "x": 229.199951171875,
+                                    "y": 59.4000244140625,
+                                    "pressure": 0.5
+                                },
+                                {
+                                    "time": 1657951541581,
+                                    "x": 224.39996337890625,
+                                    "y": 64.20001220703125,
+                                    "pressure": 0.5
+                                },
+                                {
+                                    "time": 1657951541615,
+                                    "x": 219.5999755859375,
+                                    "y": 65.79998779296875,
+                                    "pressure": 0.5
+                                },
+                                {
+                                    "time": 1657951541677,
+                                    "x": 222,
+                                    "y": 58.60003662109375,
+                                    "pressure": 0.5
+                                },
+                                {
+                                    "time": 1657951541698,
+                                    "x": 230.79998779296875,
+                                    "y": 49,
+                                    "pressure": 0.5
+                                },
+                                {
+                                    "time": 1657951541715,
+                                    "x": 238.79998779296875,
+                                    "y": 41.800018310546875,
+                                    "pressure": 0.5
+                                },
+                                {
+                                    "time": 1657951541732,
+                                    "x": 243.5999755859375,
+                                    "y": 39.399993896484375,
+                                    "pressure": 0.5
+                                },
+                                {
+                                    "time": 1657951541798,
+                                    "x": 249.199951171875,
+                                    "y": 44.20001220703125,
+                                    "pressure": 0.5
+                                },
+                                {
+                                    "time": 1657951541815,
+                                    "x": 250,
+                                    "y": 49.800018310546875,
+                                    "pressure": 0.5
+                                },
+                                {
+                                    "time": 1657951541865,
+                                    "x": 251.5999755859375,
+                                    "y": 56.20001220703125,
+                                    "pressure": 0.5
+                                },
+                                {
+                                    "time": 1657951541898,
+                                    "x": 257.199951171875,
+                                    "y": 55.399993896484375,
+                                    "pressure": 0.5
+                                },
+                                {
+                                    "time": 1657951541915,
+                                    "x": 262,
+                                    "y": 53.800018310546875,
+                                    "pressure": 0.5
+                                },
+                                {
+                                    "time": 1657951541931,
+                                    "x": 271.5999755859375,
+                                    "y": 49,
+                                    "pressure": 0.5
+                                },
+                                {
+                                    "time": 1657951541948,
+                                    "x": 278,
+                                    "y": 46.600067138671875,
+                                    "pressure": 0.5
+                                },
+                                {
+                                    "time": 1657951541981,
+                                    "x": 282.79998779296875,
+                                    "y": 45,
+                                    "pressure": 0.5
+                                },
+                                {
+                                    "time": 1657951542168,
+                                    "x": 278.79998779296875,
+                                    "y": 51.399993896484375,
+                                    "pressure": 0.5
+                                },
+                                {
+                                    "time": 1657951542203,
+                                    "x": 278,
+                                    "y": 57,
+                                    "pressure": 0.5
+                                },
+                                {
+                                    "time": 1657951542257,
+                                    "x": 282.79998779296875,
+                                    "y": 61.79998779296875,
+                                    "pressure": 0.5
+                                },
+                                {
+                                    "time": 1657951542291,
+                                    "x": 285.199951171875,
+                                    "y": 66.60003662109375,
+                                    "pressure": 0.5
+                                },
+                                {
+                                    "time": 1657951542328,
+                                    "x": 282.79998779296875,
+                                    "y": 74.60003662109375,
+                                    "pressure": 0.5
+                                },
+                                {
+                                    "time": 1657951542345,
+                                    "x": 278,
+                                    "y": 82.60003662109375,
+                                    "pressure": 0.5
+                                },
+                                {
+                                    "time": 1657951542361,
+                                    "x": 273.199951171875,
+                                    "y": 86.60003662109375,
+                                    "pressure": 0.5
+                                },
+                                {
+                                    "time": 1657951542415,
+                                    "x": 271.5999755859375,
+                                    "y": 77,
+                                    "pressure": 0.5
+                                },
+                                {
+                                    "time": 1657951542431,
+                                    "x": 276.39996337890625,
+                                    "y": 70.60003662109375,
+                                    "pressure": 0.5
+                                },
+                                {
+                                    "time": 1657951542448,
+                                    "x": 287.5999755859375,
+                                    "y": 59.4000244140625,
+                                    "pressure": 0.5
+                                },
+                                {
+                                    "time": 1657951542465,
+                                    "x": 298,
+                                    "y": 52.20001220703125,
+                                    "pressure": 0.5
+                                },
+                                {
+                                    "time": 1657951542481,
+                                    "x": 306,
+                                    "y": 48.20001220703125,
+                                    "pressure": 0.5
+                                },
+                                {
+                                    "time": 1657951542498,
+                                    "x": 310.79998779296875,
+                                    "y": 45.800018310546875,
+                                    "pressure": 0.5
+                                },
+                                {
+                                    "time": 1657951542531,
+                                    "x": 315.5999755859375,
+                                    "y": 44.20001220703125,
+                                    "pressure": 0.5
+                                },
+                                {
+                                    "time": 1657951543082,
+                                    "x": 315.5999755859375,
+                                    "y": 49.800018310546875,
+                                    "pressure": 0.5
+                                },
+                                {
+                                    "time": 1657951543225,
+                                    "x": 321.199951171875,
+                                    "y": 47.399993896484375,
+                                    "pressure": 0.5
+                                },
+                                {
+                                    "time": 1657951543242,
+                                    "x": 326.79998779296875,
+                                    "y": 41,
+                                    "pressure": 0.5
+                                },
+                                {
+                                    "time": 1657951543276,
+                                    "x": 334.79998779296875,
+                                    "y": 34.600067138671875,
+                                    "pressure": 0.5
+                                },
+                                {
+                                    "time": 1657951543315,
+                                    "x": 341.199951171875,
+                                    "y": 33,
+                                    "pressure": 0.5
+                                },
+                                {
+                                    "time": 1657951543348,
+                                    "x": 345.199951171875,
+                                    "y": 37.800018310546875,
+                                    "pressure": 0.5
+                                },
+                                {
+                                    "time": 1657951543381,
+                                    "x": 348.39996337890625,
+                                    "y": 43.399993896484375,
+                                    "pressure": 0.5
+                                },
+                                {
+                                    "time": 1657951543415,
+                                    "x": 355.5999755859375,
+                                    "y": 45,
+                                    "pressure": 0.5
+                                },
+                                {
+                                    "time": 1657951543431,
+                                    "x": 362.79998779296875,
+                                    "y": 43.399993896484375,
+                                    "pressure": 0.5
+                                },
+                                {
+                                    "time": 1657951543465,
+                                    "x": 373.199951171875,
+                                    "y": 39.399993896484375,
+                                    "pressure": 0.5
+                                },
+                                {
+                                    "time": 1657951543498,
+                                    "x": 378,
+                                    "y": 37,
+                                    "pressure": 0.5
+                                },
+                                {
+                                    "time": 1657951543598,
+                                    "x": 369.199951171875,
+                                    "y": 41.800018310546875,
+                                    "pressure": 0.5
+                                },
+                                {
+                                    "time": 1657951543631,
+                                    "x": 366.79998779296875,
+                                    "y": 46.600067138671875,
+                                    "pressure": 0.5
+                                },
+                                {
+                                    "time": 1657951543753,
+                                    "x": 372.39996337890625,
+                                    "y": 49.800018310546875,
+                                    "pressure": 0.5
+                                },
+                                {
+                                    "time": 1657951543772,
+                                    "x": 383.5999755859375,
+                                    "y": 46.600067138671875,
+                                    "pressure": 0.5
+                                },
+                                {
+                                    "time": 1657951543786,
+                                    "x": 399.5999755859375,
+                                    "y": 42.600067138671875,
+                                    "pressure": 0
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "dataKey": "self_portrait",
+            "answer": [
+                {
+                    "value": true,
+                    "type": "image/jpeg",
+                    "label": "spices-g6585a3fa6_1920.jpg"
+                }
+            ]
+        },
+        {
+            "dataKey": "nama_child",
+            "answer": [
+                {
+                    "label": "lastId#0",
+                    "value": "0"
+                }
+            ]
+        },
+        {
+            "dataKey": "fav_pet",
+            "answer": [
+                {
+                    "label": "lastId#0",
+                    "value": "0"
+                }
+            ]
+        },
+        {
+            "dataKey": "count_time_coffee",
+            "answer": 0
+        }
+    ],
+    "templateDataKey": "family-characteristics-2022",
+    "gearVersion": "1.1.0-rc",
+    "templateVersion": "0.0.1",
+    "validationVersion": "0.0.1",
+    "docState": "E",
+    "summary": {
+        "answer": 6,
+        "blank": 14,
+        "error": 1,
+        "remark": 1,
+        "clean": 6
+    },
+    "createdBy": "AdityaSetyadi",
+    "createdAt": "2022-07-16 11:11:31",
+    "createdAtTimezone": "Asia/Jakarta",
+    "createdAtGMT": 7,
+    "updatedBy": "AdityaSetyadi",
+    "updatedAt": "2022-08-08 15:41:31",
+    "updatedAtTimezone": "Asia/Jakarta",
+    "updatedAtGMT": 7
 }
- 
